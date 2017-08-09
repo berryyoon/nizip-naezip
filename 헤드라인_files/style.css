@@ -1,0 +1,65 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    zoom: 1;
+    /* ie 5,6,7 bug fix */
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+a:visited {
+    color: inherit;
+}
+
+#header h1{
+	font-size: 5rem;
+}
+
+
+#header {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: #e0e0e0;`
+}
+
+
+#main {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+#footer {
+    font-family: 'Nanum Gothic';
+    background-color: #e0e0e0;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+#footer a {
+    position: relative;
+    /*left: 40%;*/
+    text-decoration: none;
+    color: #bbb;
+    /*padding: 30px;*/
+}
+
+#footer a:hover {
+    color: #fff;
+}
+
+
+.content_space{
+    display:inline-block;
+    float: left;
+    padding: 0 20px 20px 0;
+}
